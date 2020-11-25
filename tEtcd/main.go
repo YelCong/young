@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"young/tEtcd/tEtcd"
 )
 
 func main(){
@@ -10,4 +11,8 @@ func main(){
 	//tEtcd.TGet()
 	//tEtcd.TGetDir()
 	//tEtcd.TDelete()
+	//tEtcd.TSetLease()
+	//tEtcd.TWatch()
+	//tEtcd.TOp()
+	tEtcd.DistributedOptimisticLock()
 }
